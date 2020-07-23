@@ -1,7 +1,7 @@
 const resultDiv = document.querySelector('#results');
 console.log(resultDiv);
 
-new URLSearchParams(windiw.location.search).forEach((value, name) => {
+new URLSearchParams(window.location.search).forEach((value, name) => {
     console.log(name);
     console.log(value);
     // let nameElement = document.createElement('p');
@@ -18,5 +18,5 @@ new URLSearchParams(windiw.location.search).forEach((value, name) => {
     let resultElement = document.createElement('p');
     resultElement.textContent = name + ' ' + value;
 
-    resultDiv.appendChild('resultElement');
+    resultDiv.appendChild(resultElement);
 })
