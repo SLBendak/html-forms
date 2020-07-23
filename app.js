@@ -1,2 +1,2 @@
-let endPoint = `https://api.yelp/com/search?=${}apiKey=${apiKey}`
+// let endPoint = `https://api.yelp/com/search?=${}apiKey=${apiKey}`
 
